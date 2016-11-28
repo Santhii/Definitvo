@@ -28,14 +28,9 @@ public class SistemasDefinitivo {
          m[4]=new Medico ("Camilo Guerrero", "medico general");
          m[5]=new Medico ("Bryan Utreras", " cirunan plastico");
          m[6]=new Medico ("Lorena Carrion","cirujana plastica");
-         int n=0;
-        
-         
-         
-         
-         
-         
-         
+         int n=0;                    
+                 
+                  
          int i=0;
          
         Scanner sc=new Scanner(System.in);
@@ -44,7 +39,7 @@ public class SistemasDefinitivo {
             System.out.println("Sistema Hospitalario del "+h.getNombre());
             System.out.println("Calificación: "+h.getCalificacion());
             System.out.println("¿Qué desea hacer?");
-            System.out.println("1. Iniciar Sesión");
+            System.out.println("1. Ingresar al sistema");
             System.out.println("2. Escoger otro hospital");
             System.out.println("3. Salir");
             System.out.println("Encuentrenos en: "+h.getDireccion().toString());
